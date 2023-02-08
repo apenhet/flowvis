@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "postinstall": "nuxt prepare"
+    },
+    "eslintConfig": {
+        "extends": "@apenhet"
+    },
+    "dependencies": {
+        "@apenhet/data-portal": "^0.0.64"
+    },
+    "devDependencies": {
+        "nuxt": "latest"
+    }
+}
