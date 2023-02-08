@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@apenhet/data-portal': ^0.0.64
+  '@apenhet/data-portal': ^0.0.65
   nuxt: latest
 
 dependencies:
-  '@apenhet/data-portal': 0.0.64_nuxt@3.1.2
+  '@apenhet/data-portal': 0.0.65_nuxt@3.1.2
 
 devDependencies:
   nuxt: 3.1.2
@@ -23,12 +23,12 @@ packages:
     resolution: {integrity: sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==}
     dev: false
 
-  /@apenhet/api/0.0.64_nuxt@3.1.2:
-    resolution: {integrity: sha512-tZp+awgirJy/QbSMuqXSzqHzmGhVH0JPLItGr6bx3I8qsLYKgyL09/llPPWjH0kEOSzQbB3snCO7Ds0/ST6/jw==}
+  /@apenhet/api/0.0.65_nuxt@3.1.2:
+    resolution: {integrity: sha512-DOr6e4su2svYJ/BrGqtfHY2OIHvG1F52TzF+i3nrTtvpnJE5C5jUNX7/RB8EjKFIGgO41nTSjLLog4oHBik61g==}
     requiresBuild: true
     dependencies:
-      '@apenhet/seo': 0.0.64
-      '@apenhet/shared': 0.0.64_nuxt@3.1.2
+      '@apenhet/seo': 0.0.65
+      '@apenhet/shared': 0.0.65_nuxt@3.1.2
       '@types/inflected': 1.1.29
       inflected: 2.1.0
     transitivePeerDependencies:
@@ -55,15 +55,15 @@ packages:
       - ws
     dev: false
 
-  /@apenhet/data-portal/0.0.64_nuxt@3.1.2:
-    resolution: {integrity: sha512-eAb2pk3hT74iDChLm8LIIUS0QJXdewGvVrIic3PHydllzaBPIVLKneUvAiLVJgzzyTjdEq0MPS09IeGCH1ZASQ==}
+  /@apenhet/data-portal/0.0.65_nuxt@3.1.2:
+    resolution: {integrity: sha512-enBE9osEg0CfvaCmGQFRtg66V0KzQQ1+F+HB3IujnqA+G5B5t56COHpgYTRuU9KOwkxEawLB3UMjYY/fVSDFXg==}
     requiresBuild: true
     dependencies:
-      '@apenhet/api': 0.0.64_nuxt@3.1.2
-      '@apenhet/seo': 0.0.64
-      '@apenhet/shared': 0.0.64_nuxt@3.1.2
-      '@apenhet/ui': 0.0.64_nuxt@3.1.2
-      '@apenhet/visualization': 0.0.64_nuxt@3.1.2
+      '@apenhet/api': 0.0.65_nuxt@3.1.2
+      '@apenhet/seo': 0.0.65
+      '@apenhet/shared': 0.0.65_nuxt@3.1.2
+      '@apenhet/ui': 0.0.65_nuxt@3.1.2
+      '@apenhet/visualization': 0.0.65_nuxt@3.1.2
       '@turf/boolean-point-in-polygon': 6.5.0
       '@types/proj4': 2.5.2
       proj4: 2.8.1
@@ -120,8 +120,8 @@ packages:
       - supports-color
     dev: false
 
-  /@apenhet/seo/0.0.64:
-    resolution: {integrity: sha512-c/OAt+vfIwhmsOZEppIrKpeu8/yuQB2UjBO9TXEXl+x200kvS0UMyBBhzt8GJyREyTOQn5fXJFM3iNngdkD3lA==}
+  /@apenhet/seo/0.0.65:
+    resolution: {integrity: sha512-8tVrEIYKkcCHu+CFfYkO+Ucp+LA5c71/ECcyD6+myySYRJViVNWG6UJwev9ccTPV1J6Jn7inx9zuGqBh2T6YlA==}
     requiresBuild: true
     dependencies:
       nuxt-seo-kit: 1.2.2
@@ -145,8 +145,8 @@ packages:
       - ws
     dev: false
 
-  /@apenhet/shared/0.0.64_nuxt@3.1.2:
-    resolution: {integrity: sha512-iC+VVi5Fh7kAOz4Jo6hXV2wC1pMPUfE/DY9NaFx5yWAb2dNKS64VYlHzCzENHmt+3CGbh++GCS37PSX4Cx7txQ==}
+  /@apenhet/shared/0.0.65_nuxt@3.1.2:
+    resolution: {integrity: sha512-q40yEnjd2lqnuK7iIEGsr4hsIxjbMF1aOcN38dsy+K8FbTv07Fk8k8WNCKZ7wZ6vX94rMiWXTh1MsEVZD/a3jA==}
     requiresBuild: true
     dependencies:
       '@apenhet/eslint-config': 1.1.4
@@ -180,11 +180,11 @@ packages:
       - vue-router
     dev: false
 
-  /@apenhet/ui/0.0.64_nuxt@3.1.2:
-    resolution: {integrity: sha512-MvwcOBb6SfNN73+QkO3G8IDa/9713HKgaeiVNfQ97gpXQwImAmGL6aXknI+f0GP38MzyVVKWgkk0basRc4zmWA==}
+  /@apenhet/ui/0.0.65_nuxt@3.1.2:
+    resolution: {integrity: sha512-PFTlSpL3jGReJfuhSiwwerkFEf2FtXwZmVRR7bgHiS0W4FnrgZ/bmOHhIhnL+2UuqTDBRH4whIuAbdjw8K35Zw==}
     requiresBuild: true
     dependencies:
-      '@apenhet/shared': 0.0.64_nuxt@3.1.2
+      '@apenhet/shared': 0.0.65_nuxt@3.1.2
       '@headlessui/vue': 1.7.9
       '@nuxtjs/tailwindcss': 6.3.1
       '@tailwindcss/typography': 0.5.9
@@ -215,13 +215,13 @@ packages:
       - webpack
     dev: false
 
-  /@apenhet/visualization/0.0.64_nuxt@3.1.2:
-    resolution: {integrity: sha512-+0AYQN4nFs7hJrGkecF90xKJ65buAVGtqWlqmJF8JziNcPDPU1wplHIhS/shNneyPoKG1cukbXOKM4UZjtq0VA==}
+  /@apenhet/visualization/0.0.65_nuxt@3.1.2:
+    resolution: {integrity: sha512-VW2hDbwEfcShHoTTtYj+jXboikHinxswO3fJyEbELD0YJXRiZqJFNWk53yttBJW3fUUeEbFJ86wYp0lvGlCK+g==}
     requiresBuild: true
     dependencies:
       '@apenhet/echarts': 5.4.3
-      '@apenhet/shared': 0.0.64_nuxt@3.1.2
-      '@apenhet/ui': 0.0.64_nuxt@3.1.2
+      '@apenhet/shared': 0.0.65_nuxt@3.1.2
+      '@apenhet/ui': 0.0.65_nuxt@3.1.2
       canvas: 2.11.0
     transitivePeerDependencies:
       - '@edge-runtime/vm'
@@ -1855,7 +1855,7 @@ packages:
   /@types/sax/1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.13.0
     dev: false
 
   /@types/semver/7.3.13:
