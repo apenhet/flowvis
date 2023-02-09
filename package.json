@@ -8,7 +8,7 @@
         "extends": "@apenhet"
     },
     "dependencies": {
-        "@apenhet/data-portal": "^0.0.65"
+        "@apenhet/data-portal": "latest"
     },
     "devDependencies": {
         "nuxt": "latest"
